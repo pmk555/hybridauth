@@ -26,7 +26,7 @@ try {
      * Hold information about provider when user clicks on Sign In.
      */
     if (isset($_GET['provider'])) {
-        $storage->set('provider', $_GET['provider']);
+        $storage->set('provider', $_POST['provider']);
     }
 
     /**
